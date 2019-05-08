@@ -1,0 +1,48 @@
+{
+  "name": "generator-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "manpacker-vue": "./bin/manpacker-vue"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpackers/generator-vue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": {
+    "name": "winterfete"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manpackers/generator-vue/issues"
+  },
+  "homepage": "https://github.com/manpackers/generator-vue#readme",
+  "dependencies": {
+    "@manpacker/generator": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-manpacker": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-manpacker-typescript": "^1.2.0",
+    "eslint-config-manpacker-vue": "^1.1.4",
+    "typescript": "^3.4.5"
+  },
+  "babel": {
+    "presets": [
+      "manpacker"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "manpacker-typescript",
+      "manpacker-vue"
+    ]
+  }
+}
