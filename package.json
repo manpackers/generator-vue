@@ -2,7 +2,6 @@
   "name": "@manpacker/generator-vue",
   "version": "0.0.0",
   "description": "Generator vue frontend build project",
-  "main": "./lib",
   "bin": {
     "manpacker-vue": "./bin/manpacker-vue"
   },
@@ -15,7 +14,11 @@
     "url": "git+https://github.com/manpackers/generator-vue.git"
   },
   "keywords": [
-    "vue"
+    "vue",
+    "manpacker",
+    "generator",
+    "build",
+    "frontend"
   ],
   "author": {
     "name": "winterfete"

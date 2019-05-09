@@ -5,8 +5,8 @@ module.exports = {
   isCssModule: false,
   isMergeCommon: true,
   isClassModel: true,
-  isComponentModel: false,
-  isExternal: false
+  isVueComponent: false,
+  isComponentProvide: true
   // cdn: 'https://www.meipian.cn/cdn/',
   // map: 'https://www.meipian.cn/map/'
 }
