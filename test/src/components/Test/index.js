@@ -6,5 +6,8 @@ import './index.scss'
   template: '<div><div class="btn" @click="test">Test Click</div></div>'
 })
 export default class Main extends Vue {
-  test = evt => { window.alert(evt) }
+  test = evt => {
+    // eslint-disable-next-line
+    console.log(evt)
+  }
 }
