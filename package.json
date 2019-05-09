@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/manpackers/generator-vue#readme",
   "dependencies": {
-    "@manpacker/generator": "^1.4.0",
+    "@manpacker/generator": "^1.5.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-loader": "^15.7.0",
@@ -39,7 +39,9 @@
     "babel-preset-manpacker": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-config-manpacker-typescript": "^1.2.0",
-    "eslint-config-manpacker-vue": "^1.1.4",
+    "eslint-config-manpacker-vue": "^1.2.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
     "ts-loader": "^6.0.0",
     "typescript": "^3.4.5"
   },
@@ -52,9 +54,6 @@
     "extends": [
       "manpacker-typescript",
       "manpacker-vue"
-    ],
-    "globals": {
-      "NODE_ENV": false
-    }
+    ]
   }
 }

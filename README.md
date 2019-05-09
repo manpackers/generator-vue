@@ -41,7 +41,7 @@ Expand: <br>
 
 |name|type|value|description|
 |----|----|-----|-----------|
-|isVueProvide|boolean|default: true|Automatically provide <code>vue</code> references|
+|isVueProvide|boolean|default: true|Automatically provide <code>Vue</code> references|
 |isComponentModel|boolean|default: false|Whether or not references are automatically <code>vue-class-component</code> provided.|
 
 > isVueProvide
@@ -55,6 +55,7 @@ Every file need import Vue from 'vue'
 { isComponentProvide: true }
 ```
 Every file no need: <s>import Component from 'vue-class-component'</s>
+Global varable <code>Component</code>
 
 ## Npm
 [link](https://www.npmjs.com/package/@manpacker/generator-vue)

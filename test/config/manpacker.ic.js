@@ -5,7 +5,7 @@ module.exports = {
   isCssModule: false,
   isMergeCommon: true,
   isClassModel: true,
-  isVueComponent: false,
+  isVueProvide: true,
   isComponentProvide: true
   // cdn: 'https://www.meipian.cn/cdn/',
   // map: 'https://www.meipian.cn/map/'

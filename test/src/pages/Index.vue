@@ -11,5 +11,10 @@
 <script lang="babel">
 import Test from '@/components/Test'
 
-export default { components: { Test } }
+export default {
+  components: { Test },
+  methods: {
+    test() { alert('bucuo') }
+  }
+}
 </script>
