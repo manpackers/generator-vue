@@ -7,6 +7,6 @@ module.exports = {
   isClassModel: true,
   isVueProvide: true,
   isComponentProvide: true
-  // cdn: 'https://www.meipian.cn/cdn/',
-  // map: 'https://www.meipian.cn/map/'
+  // cdn: 'https://www.test.cn/cdn/',
+  // map: 'https://www.test.cn/map/'
 }
