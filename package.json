@@ -40,7 +40,6 @@
     "eslint": "^5.16.0",
     "eslint-config-manpacker-typescript": "^1.2.0",
     "eslint-config-manpacker-vue": "^1.2.0",
-    "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.2",
     "ts-loader": "^6.0.0",
     "typescript": "^3.4.5"
