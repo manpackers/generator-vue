@@ -1,8 +1,5 @@
-import tool from '@/utils/tool'
+// import Vue from 'vue'
 import Index from '@/pages/Index'
 
-tool.getQueryString()
-
-console.log(Index)
-
-console.log(NODE_ENV)
+// eslint-disable-next-line
+new Vue({ el: '#app', render: h => h(Index) })

@@ -3,7 +3,10 @@ module.exports = () => ({
     rules: [{
       test: /\.tsx?$/,
       exclude: /node_modules/,
-      use: { loader: 'ts-loader' }
+      use: {
+        loader: 'ts-loader',
+        options: { appendTsxSuffixTo: [/\.vue$/] }
+      }
     }]
   }
 })

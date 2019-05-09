@@ -1,13 +1,14 @@
 {
   "name": "generator-vue",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib",
   "bin": {
     "manpacker-vue": "./bin/manpacker-vue"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:server": "node ./bin/manpacker-vue server --ic ./test/config/manpacker.ic.js --config ./test/manpacker.config.js",
+    "test:build": "node ./bin/manpacker-vue build --ic ./test/config/manpacker.ic.js --config ./test/manpacker.config.js"
   },
   "repository": {
     "type": "git",
@@ -25,13 +26,18 @@
   },
   "homepage": "https://github.com/manpackers/generator-vue#readme",
   "dependencies": {
-    "@manpacker/generator": "^1.4.0"
+    "@manpacker/generator": "^1.4.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
     "babel-preset-manpacker": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-config-manpacker-typescript": "^1.2.0",
     "eslint-config-manpacker-vue": "^1.1.4",
+    "ts-loader": "^6.0.0",
     "typescript": "^3.4.5"
   },
   "babel": {
@@ -43,6 +49,9 @@
     "extends": [
       "manpacker-typescript",
       "manpacker-vue"
-    ]
+    ],
+    "globals": {
+      "NODE_ENV": false
+    }
   }
 }

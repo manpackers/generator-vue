@@ -1,9 +1,10 @@
 module.exports = {
   root: './test/src',
   injectStyle: ['./style/index.scss'],
-  isCssExtract: true,
+  isCssExtract: false,
   isCssModule: false,
-  isMergeCommon: true
+  isMergeCommon: true,
+  isClassModel: true
   // cdn: 'https://www.meipian.cn/cdn/',
   // map: 'https://www.meipian.cn/map/'
 }
