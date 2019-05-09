@@ -1,7 +1,7 @@
 {
-  "name": "generator-vue",
+  "name": "@manpacker/generator-vue",
   "version": "0.0.0",
-  "description": "",
+  "description": "Generator vue frontend build project",
   "main": "./lib",
   "bin": {
     "manpacker-vue": "./bin/manpacker-vue"

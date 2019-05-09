@@ -4,7 +4,9 @@ module.exports = {
   isCssExtract: false,
   isCssModule: false,
   isMergeCommon: true,
-  isClassModel: true
+  isClassModel: true,
+  isComponentModel: false,
+  isExternal: false
   // cdn: 'https://www.meipian.cn/cdn/',
   // map: 'https://www.meipian.cn/map/'
 }

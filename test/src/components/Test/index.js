@@ -2,7 +2,6 @@ import './index.scss'
 import Component, { mixins } from 'vue-class-component'
 
 console.log(mixins)
-
 @Component({
   template: '<div><div class="btn" @click="test">Test Click</div></div>'
 })
