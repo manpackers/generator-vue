@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/manpackers/generator-vue#readme",
   "dependencies": {
-    "@manpacker/generator": "^1.5.0",
+    "@manpacker/generator": "^1.6.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-loader": "^15.7.0",
