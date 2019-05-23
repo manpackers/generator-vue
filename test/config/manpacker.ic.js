@@ -6,7 +6,8 @@ module.exports = {
   isMergeCommon: true,
   isClassModel: true,
   isVueProvide: true,
-  isComponentProvide: true
+  isComponentProvide: true,
+  isZip: false
   // cdn: 'https://www.test.cn/cdn/',
   // map: 'https://www.test.cn/map/'
 }
